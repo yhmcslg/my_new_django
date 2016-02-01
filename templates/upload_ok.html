@@ -1,0 +1,30 @@
+{% if list1 %}
+	<table border=1 width=400>
+	<th>文件名</th><th>信息</th>
+	{% for list in list1.values %}
+	
+		{% if list %}
+
+			{% for i,j in list.items %}
+
+					<tr>
+						
+						<td >{{ i }}</td>
+	
+						<td >{{ j|safe }}</td>
+	
+					</tr>
+
+			{% endfor %}
+
+		{% endif %}
+
+	{% endfor %}
+
+	</table>
+
+{% else %}
+
+	<p>全部上传成功</p>
+
+{% endif %}

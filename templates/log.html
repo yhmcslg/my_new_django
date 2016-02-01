@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<meta http-equiv='Content-Type' content='text/html';>
+		<title></title>
+	</head>
+
+	<body>
+
+		<h1>主机信息</h1>
+		{% if not err %}
+		<table border=1>
+		{% for item in data %}
+			
+			<tr>
+				<td>{{ item.1 }}</td>
+				<td>{{ item.2 }}</td>
+			</tr>
+
+		{% endfor %}
+		{% else %}
+			<p>{{ err }}</p>
+		{% endif %}
+		</table>
+		<div>总条数:{{ count }}</div>
+	</body>
+
+</html>

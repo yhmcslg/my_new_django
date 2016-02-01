@@ -1,0 +1,90 @@
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Dec 30 14:52:31 2015] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-16) on 23 October 2015 13:24:54
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: mule-backup
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /tmp/offer
+writing pidfile to /tmp/offer/tmp/uwsgi.pid
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 502
+setuid() to 502
+chdir() to /tmp/offer
+your processes number limit is 14871
+limiting address space of processes...
+your process address space limit is 536870912 bytes (512 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:9090 fd 3
+Python version: 2.7.3 (default, Jan  5 2013, 10:09:00)  [GCC 4.4.6 20120305 (Red Hat 4.4.6-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1b3bae0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 493360 bytes (481 KB) for 4 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "/tmp/offer/offer/wsgi.py", line 12, in <module>
+    from django.core.wsgi import get_wsgi_application
+ImportError: No module named django.core.wsgi
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17394)
+spawned uWSGI worker 1 (pid: 17395, cores: 1)
+spawned uWSGI worker 2 (pid: 17396, cores: 1)
+spawned uWSGI worker 3 (pid: 17397, cores: 1)
+spawned uWSGI worker 4 (pid: 17398, cores: 1)
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+-- unavailable modifier requested: 1 --
+Wed Dec 30 15:08:50 2015 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.11.2 (64bit) on [Wed Dec 30 16:29:25 2015] ***
+compiled with version: 4.4.7 20120313 (Red Hat 4.4.7-16) on 23 October 2015 13:24:54
+os: Linux-2.6.32-358.el6.x86_64 #1 SMP Fri Feb 22 00:31:26 UTC 2013
+nodename: mule-backup
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /tmp/ENV/bridge
+writing pidfile to /tmp/offer/tmp/uwsgi.pid
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+setgid() to 502
+setuid() to 502
+chdir() to /tmp/offer
+your processes number limit is 14871
+limiting address space of processes...
+your process address space limit is 536870912 bytes (512 MB)
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+VirtualHosting mode enabled.
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:9090 fd 3
+Python version: 2.7.3 (default, Jan  5 2013, 10:09:00)  [GCC 4.4.6 20120305 (Red Hat 4.4.6-4)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1abab50
+your server socket listen backlog is li

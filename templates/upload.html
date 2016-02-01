@@ -1,0 +1,5 @@
+<form  action='.' enctype="multipart/form-data" method='POST'>
+	{% csrf_token %}
+	<label>文  件：<input type='file' name='uploadfile'  multiple=''/>       </br>
+	<input type='submit' value='提交'>
+</form>
